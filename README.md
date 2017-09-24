@@ -1,5 +1,17 @@
 # DynamicComponent
 
+## How to avoid the `ExpressionChangedAfterItHasBeenCheckedError` error
+
+1. build a production
+
+  ng build -e=prod --prod --no-sourcemap --aot
+
+2. run the production the error will dismiss.
+
+  npm install -g lite-server
+  // run lite-server in the dist folder 
+ 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.3.
 
 ## Development server
